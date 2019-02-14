@@ -21,7 +21,36 @@ public class user {
 
 public static void main ( String []args) {
 	
-	User David = new User();
+	/*User David = new User();
 	System.out.println(User)
-	
+
+     public void setfullName(fullName fN){
+	    fN = this.fullName;*/
+    }
+
+
 }
+
+    public String getFullName() {
+        return fullName;
+    }
+
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getMobileNumber() {
+        return mobileNumber;
+    }
+
+    public void setMobileNumber(String mobileNumber) {
+        this.mobileNumber = mobileNumber;
+    }
